@@ -12,7 +12,10 @@
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/sdk:6.0
 WORKDIR /App
-COPY . ./
+COPY . .
 RUN dotnet build SampleCLI.csproj
+RUN ls
+RUN pwd
 # COPY --from=build-env /App/out .
-ENTRYPOINT ["bin/Debug/net6.0/SampleCLI.exe"]
+ENTRYPOINT ["ls"]
+# ENTRYPOINT ["bin/Debug/net6.0/SampleCLI.exe"]
