@@ -17,5 +17,6 @@ RUN dotnet build SampleCLI.csproj
 RUN ls
 RUN pwd
 # COPY --from=build-env /App/out .
-ENTRYPOINT ["ls"]
-# ENTRYPOINT ["bin/Debug/net6.0/SampleCLI.exe"]
+# ENTRYPOINT ["ls"]
+RUN /App/bin/Debug/net6.0/SampleCLI.exe
+ENTRYPOINT ["/App/bin/Debug/net6.0/SampleCLI.exe"]
