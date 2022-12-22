@@ -1,5 +1,0 @@
-C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\out\DotNet.Docker.exe
-C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\out\DotNet.Docker.dll
-C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\out\DotNet.Docker.deps.json
-C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\out\DotNet.Docker.runtimeconfig.json
-C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\out\DotNet.Docker.pdb
