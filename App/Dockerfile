@@ -21,4 +21,4 @@ RUN pwd
 RUN dotnet run
 RUN ls -la bin/Debug/net6.0/
 RUN ./bin/Debug/net6.0/SampleCLI --help
-ENTRYPOINT ["./bin/Debug/net6.0/SampleCLI --help"]
+ENTRYPOINT ["./App/bin/Debug/net6.0/SampleCLI --help"]
