@@ -1,5 +1,4 @@
-﻿
-using Microsoft.Extensions.CommandLineUtils;
+﻿using Microsoft.Extensions.CommandLineUtils;
 
 namespace SampleCLI
 {
