@@ -1,13 +1,8 @@
-FROM python
+# https://hub.docker.com/_/microsoft-dotnet
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /source
 
-COPY batch_processor.py /
-
-
-RUN pip install --upgrade pip && \
-    pip install boto3 && \
-    pip install boto 
-
+RUN dotnet version
 RUN pwd
 RUN ls
-
-CMD ["python", "batch_processor.py"]
+ENTRYPOINT [ "ls" ]
