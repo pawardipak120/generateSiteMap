@@ -5,4 +5,4 @@ WORKDIR /source
 RUN dotnet --list-runtimes
 RUN pwd
 RUN ls
-ENTRYPOINT [ "ls" ]
+ENTRYPOINT [ "echo" ]
