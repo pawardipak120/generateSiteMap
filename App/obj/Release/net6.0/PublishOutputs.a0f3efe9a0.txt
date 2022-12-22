@@ -1,0 +1,5 @@
+C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\bin\Release\net6.0\publish\DotNet.Docker.exe
+C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\bin\Release\net6.0\publish\DotNet.Docker.dll
+C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\bin\Release\net6.0\publish\DotNet.Docker.deps.json
+C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\bin\Release\net6.0\publish\DotNet.Docker.runtimeconfig.json
+C:\Users\dipak\Documents\frelance-work\phani\generateSiteMap\App\bin\Release\net6.0\publish\DotNet.Docker.pdb

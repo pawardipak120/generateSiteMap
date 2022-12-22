@@ -6,6 +6,7 @@ phases:
       - aws ecr get-login-password --region ap-southeast-2 | docker login --username AWS --password-stdin 286021655333.dkr.ecr.ap-southeast-2.amazonaws.com
   build:
     commands:
+      - cd App
       - docker build -t awsbatchtesting .
       - docker tag awsbatchtesting:latest 286021655333.dkr.ecr.ap-southeast-2.amazonaws.com/awsbatchtesting:latest
   post_build:
