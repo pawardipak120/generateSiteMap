@@ -15,4 +15,4 @@ WORKDIR /App
 COPY . ./
 RUN dotnet build SampleCLI.csproj
 # COPY --from=build-env /App/out .
-ENTRYPOINT ["bin\Debug\net6.0>SampleCLI.exe"]
+ENTRYPOINT ["bin/Debug/net6.0/SampleCLI.exe"]
