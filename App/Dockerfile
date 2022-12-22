@@ -18,5 +18,6 @@ RUN ls
 RUN pwd
 # COPY --from=build-env /App/out .
 # ENTRYPOINT ["ls"]
+RUN ls -la /bin/Debug/net6.0/
 RUN ./bin/Debug/net6.0/SampleCLI.exe
 ENTRYPOINT ["./bin/Debug/net6.0/SampleCLI.exe"]
