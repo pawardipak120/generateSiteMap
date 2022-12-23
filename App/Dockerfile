@@ -8,7 +8,7 @@ RUN cp -r /App/bin/Debug/net6.0/* /
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /App
-COPY --from=build-env /App/bin/Debug/net6.0/* .
+COPY --from=build-env /App/bin/Debug/net6.0/* /App
 ENTRYPOINT ["/SampleCLI", "--help"]
 
 #ENTRYPOINT ["/App/bin/Debug/net6.0/SampleCLI", "--help"]
