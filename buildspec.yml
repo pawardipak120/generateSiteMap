@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - cd App
-      - docker build -t $ECR_REPO_NAME .
+      - docker build -t $ECR_REPO_NAME:latest .
       - docker tag $ECR_REPO_NAME:latest $REPOSITORY_URI/$ECR_REPO_NAME:$IMAGE_TAG
   post_build:
     commands:
